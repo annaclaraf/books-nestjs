@@ -4,7 +4,7 @@
 
 ## Sobre o Projeto
 
-Esse projeto foi desenvolvido em NestJS e representa um CRUD de livos.
+Esse projeto foi desenvolvido em NestJS e representa um CRUD de livros.
 
 ## Tecnologias
 
