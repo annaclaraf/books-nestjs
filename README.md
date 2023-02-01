@@ -19,20 +19,25 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Como executar
 
 ```bash
+
 # Clone o repositório
 $ git clone https://github.com/annaclaraf/books-nestjs.git
 
 # Entre na pasta do projeto
 $ cd books-nestjs
 
-# Instale as dependências
-$ npm i
-
 # Em um terminal execute o comando para iniciar o container do banco no docker
 $ sudo docker-compose up -d
 
-# Em outro terminal inicie a aplicação
+# Instale as dependências
+$ npm i
+
+# Rode as migrations
+$ npx prisma migrate deploy
+
+# Inicie a aplicação
 $ npm run start:dev
+
 ```
 
 ---
